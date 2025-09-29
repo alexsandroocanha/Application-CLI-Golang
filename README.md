@@ -13,7 +13,8 @@ Sistem) de sites.
 
 
 ## Requisitos 
-* _Ter o compilador do Go instalado no pc (Opcional)_
+* _Ter o compilador do Go instalado no pc (para compilar/rodar via go run)_
+* _Para testes rápidos no Windows, há um executável pronto_
 
 ## Informações adicionais
 > * Caso queira apenas baixar e testar a aplicação, sujiro baixar o arquivo "aplicacao.exe", pois ela é apenas um executavel e não necessitará de ter o compilador do Go
@@ -53,7 +54,13 @@ No linux:
 ```
 
 ### Considerações Finais
-Este foi um app simples feito apenas com o intuito de aprender cada vez mais sobre a linguagem go. Espero que tenha gostado e caso tenha alguma critica, o meu email estará abaixo.
+Este é um app simples criado para consolidar meu aprendizado em Go. Se ele foi útil para você, já valeu a pena.
+
+Tem sugestões, críticas ou encontrou um bug?
+> * Abra uma issue no repositório (preferível)
+> * Envie um PR com melhorias
+> * Ou me escreva por e-mail (abaixo)
+
 
 ### Informações para Contato
 
