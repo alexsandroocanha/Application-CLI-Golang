@@ -38,10 +38,10 @@ Para rodar a aplicação e usar de fato ela, você precisara abrir o terminal de
 Este primeiro comando serve para identificar o Endereço ip Publico do site, caso queira consultar um endereço especifico, só precisa substituir o "google.com"
 ```bash
 No windows:
-.\linha-de-comando.exe ip --host google.com
+.\linha-de-comando.exe ip --host <nome-de-dominio>
 
 No linux:
-./linha-de-comando.exe ip --host google.com
+./linha-de-comando.exe ip --host <nome-de-dominio>
 ```
 
 Este segundo comando serve para identificar o Servidor DNS do site, caso queira consultar um endereço especifico, só precisa substituir o "google.com"
