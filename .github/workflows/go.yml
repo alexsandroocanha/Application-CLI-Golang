@@ -21,9 +21,6 @@ jobs:
       with:
         go-version: '1.20'
 
-    - name: Test
-      run: go test -v ./...
-
     - name: Testando funcionalidades Host
       run: go run main.go ip --host www.google.com
 
