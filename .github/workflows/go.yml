@@ -30,7 +30,7 @@ jobs:
       run: go test -v ./...
 
     - name: Testando funcionalidades Host
-      run: linha-de-comando.exe ip --host www.google.com
+      run: go run main.go ip --host www.google.com
 
     - name: Testando funcionalidades Server
-      run: linha-de-comando.exe servidores --host www.google.com
+      run: go run main.go servidores --host www.google.com
