@@ -21,11 +21,6 @@ jobs:
       with:
         go-version: '1.20'
 
-    - name: Build
-      run: |
-        cd /Application-CLI-Golang/Application-CLI-Golang/
-        go build /Application-CLI-Golang/Application-CLI-Golang/.
-
     - name: Test
       run: go test -v ./...
 
