@@ -23,10 +23,9 @@ jobs:
         cache: true
 
     - name: Build
-      run: go build -v -o linha-de-comando.exe .
+      run: go build -v -o linha-de-comando .
 
-    - name: Testando comando ip
-      run: linha-de-comando.exe ip --host www.google.com.br
-
-    - name: Testando comando servidores 
-      run: linha-de-comando.exe servidores --host www.google.com.br
+    - name: Testando comando
+      run: |
+        ./linha-de-comando ip --host www.google.com.br
+        ./linha-de-comando servidores --host www.google.com.br
