@@ -23,8 +23,8 @@ jobs:
 
     - name: Build
       run: |
-        cd /Application-CLI-Golang/Application-CLI-Golang
-        go build . -v
+        cd /Application-CLI-Golang/Application-CLI-Golang/
+        go build /Application-CLI-Golang/Application-CLI-Golang/.
 
     - name: Test
       run: go test -v ./...
